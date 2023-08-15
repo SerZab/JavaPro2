@@ -16,7 +16,6 @@ public class Main {
 
         producerThread.start();
         consumerThread.start();
-
 /*
 	1. Написать класс Сообщение.
 	2. Сообщение должно содержать текст сообщения, идентификатор и иметь конструктор

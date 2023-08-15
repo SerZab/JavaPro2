@@ -23,7 +23,7 @@ public class Consumer extends Thread{
                     break;
                 } else {
                     System.out.println("Consumed: " + message.getContent());
-                    Thread.sleep(message.getId() * 500L);
+                    Thread.sleep(message.getId() * 500);
                 }
             } catch (InterruptedException e) {
                 throw new RuntimeException(e);
